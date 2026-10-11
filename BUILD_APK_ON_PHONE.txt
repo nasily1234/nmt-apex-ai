@@ -1,0 +1,21 @@
+NMT APEX AI — Android prototype 0.1
+
+QUICK STATUS
+- This is a prototype project, not a finished trading system.
+- It does not connect to Deriv, fetch live prices, send orders, or truly analyze screenshots with AI.
+- The risk calculator depends on correct broker symbol tick size/value. Test only on demo.
+
+BUILD AN APK WITHOUT ANDROID STUDIO ON YOUR PHONE
+This ZIP includes a GitHub Actions workflow that can build a debug APK in the cloud.
+1. Sign in or create an account at https://github.com/ .
+2. Create a new repository (for example, nmt-apex-ai).
+3. Upload/extract the CONTENTS of this ZIP into the repository root, keeping the .github folder. The android-project folder must be at the root.
+4. Commit the files to the main branch.
+5. Open the repository's Actions tab and select “Build NMT APEX AI APK”.
+6. Tap “Run workflow” if it has not started automatically. Wait for the run to finish successfully.
+7. Open the completed run and download the artifact named NMT-APEX-AI-debug-apk. Unzip it to get app-debug.apk.
+8. On your Android phone, open the APK and follow Android's install prompt. Android may ask you to allow installation from that file app/browser. Only install an APK you built from this project and trust.
+
+If you upload the ZIP itself as one file rather than its contents, GitHub Actions will not see the workflow; upload the extracted files and hidden .github folder.
+
+The cloud workflow creates a DEBUG APK for testing. It is not a signed Play Store release. Do not use it to trade real money.

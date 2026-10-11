@@ -1,0 +1,9 @@
+{
+  "name": "NMT APEX AI",
+  "short_name": "APEX AI",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "description": "XAUUSD chart review workspace and risk calculator"
+}
